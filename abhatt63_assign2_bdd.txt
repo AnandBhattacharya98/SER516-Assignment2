@@ -1,0 +1,20 @@
+abhatt63_assign2_bdd
+
+User Story Encrypt: 
+As a sender, I want to hide the message from anyone other than the recipient, so that nobody else can read it.
+
+BDD Encrypt: 
+Given, I am the sender with a plain text message
+When, I cipher the text with a secret code
+Then, the recipient will be able to decipher it with the same code.
+
+User Story Decrypt: 
+As a recipient, I want to use a common secret code, so that I read the message from the sender.
+
+BDD Decrypt: 
+Given, I am the recipient with a coded text message
+When, I decipher the text with a shared secret code
+Then, I will be able to read the plain text message.
+
+
+
